@@ -2,8 +2,8 @@
 <meta charset="utf-8">
 <style>
 path {
-  stroke: white;
-  stroke-width: 0.25px;
+  stroke: black;
+  stroke-width: 1px;
   fill: grey;
 }
 </style>
@@ -16,7 +16,7 @@ var width = 960,
 
 var projection = d3.geo.mercator()
     .center([-80.5104919,43.501678 ])
-    .scale(900)
+    .scale(1800)
     .rotate([-180,0]);
 
 var svg = d3.select("body").append("svg")
